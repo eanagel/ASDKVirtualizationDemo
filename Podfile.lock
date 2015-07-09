@@ -4,11 +4,18 @@ PODS:
   - AsyncDisplayKit/ASDealloc2MainObject (1.2.2)
 
 DEPENDENCIES:
-  - AsyncDisplayKit (from `../AsyncDisplayKit`)
+  - AsyncDisplayKit (from `https://github.com/eanagel/AsyncDisplayKit.git`, branch
+    `auto-adjust-content-offset`)
 
 EXTERNAL SOURCES:
   AsyncDisplayKit:
-    :path: ../AsyncDisplayKit
+    :branch: auto-adjust-content-offset
+    :git: https://github.com/eanagel/AsyncDisplayKit.git
+
+CHECKOUT OPTIONS:
+  AsyncDisplayKit:
+    :commit: 023ccda71dae13fbbad1011c4da78609b5897b2c
+    :git: https://github.com/eanagel/AsyncDisplayKit.git
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: 70634bfc4bce38b0de85fec7da20a669fdbc8809
