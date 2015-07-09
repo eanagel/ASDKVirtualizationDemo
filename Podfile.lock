@@ -1,0 +1,16 @@
+PODS:
+  - AsyncDisplayKit (1.2.2):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.2.2)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.2.2)
+
+DEPENDENCIES:
+  - AsyncDisplayKit (from `../AsyncDisplayKit`)
+
+EXTERNAL SOURCES:
+  AsyncDisplayKit:
+    :path: ../AsyncDisplayKit
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 70634bfc4bce38b0de85fec7da20a669fdbc8809
+
+COCOAPODS: 0.37.2
