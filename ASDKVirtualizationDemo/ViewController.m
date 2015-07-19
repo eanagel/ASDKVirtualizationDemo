@@ -11,6 +11,10 @@
 #import <ASTableView.h>
 
 
+//#define LOG(...) NSLog(__VA_ARGS__)
+#define LOG(...)
+
+
 static const int MIN_BUFFER = 10;
 static const int MAX_BUFFER = 20;
 
@@ -155,7 +159,7 @@ static const NSTimeInterval ONE_DAY = 24 * 60 * 60;
     }
 
     [self.tableView endUpdatesAnimated:NO completion:^(BOOL success) {
-      NSLog(@"done with updates.");
+      LOG(@"done with updates.");
       dispatch_async(dispatch_get_main_queue(), ^{
         _requestingData = NO;
         //      [self visibleNodesChanged];
@@ -183,7 +187,7 @@ static const NSTimeInterval ONE_DAY = 24 * 60 * 60;
 - (void)visibleNodesChanged
 {
   if (_requestingData) {
-    NSLog(@"ignoring visibleRangeChange - requestingData");
+    LOG(@"ignoring visibleRangeChange - requestingData");
     return;
   }
 
@@ -222,7 +226,7 @@ static const NSTimeInterval ONE_DAY = 24 * 60 * 60;
     }
 
     _requestingData = YES;
-    NSLog(@"fetching before:%ld after:%ld", before, after);
+    LOG(@"fetching before:%ld after:%ld", before, after);
     [self beginFetchRowsBefore:before after:after];
   }
 }
