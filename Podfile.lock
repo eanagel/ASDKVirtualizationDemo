@@ -5,16 +5,16 @@ PODS:
 
 DEPENDENCIES:
   - AsyncDisplayKit (from `https://github.com/eanagel/AsyncDisplayKit.git`, branch
-    `auto-adjust-content-offset`)
+    `new-auto-adjust-content`)
 
 EXTERNAL SOURCES:
   AsyncDisplayKit:
-    :branch: auto-adjust-content-offset
+    :branch: new-auto-adjust-content
     :git: https://github.com/eanagel/AsyncDisplayKit.git
 
 CHECKOUT OPTIONS:
   AsyncDisplayKit:
-    :commit: 023ccda71dae13fbbad1011c4da78609b5897b2c
+    :commit: f497639124a36b7900e4f2455e913db09900241b
     :git: https://github.com/eanagel/AsyncDisplayKit.git
 
 SPEC CHECKSUMS:

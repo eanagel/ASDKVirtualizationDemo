@@ -3,7 +3,7 @@
 
 target 'ASDKVirtualizationDemo' do
   # pod 'AsyncDisplayKit', :path => '../AsyncDisplayKit'
-  pod 'AsyncDisplayKit', :git => 'https://github.com/eanagel/AsyncDisplayKit.git', :branch => 'auto-adjust-content-offset'
+  pod 'AsyncDisplayKit', :git => 'https://github.com/eanagel/AsyncDisplayKit.git', :branch => 'new-auto-adjust-content'
 end
 
 target 'ASDKVirtualizationDemoTests' do
