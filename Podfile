@@ -2,8 +2,7 @@
 # platform :ios, '6.0'
 
 target 'ASDKVirtualizationDemo' do
-  # pod 'AsyncDisplayKit', :path => '../AsyncDisplayKit'
-  pod 'AsyncDisplayKit', :git => 'https://github.com/eanagel/AsyncDisplayKit.git', :branch => 'new-auto-adjust-content'
+  pod 'AsyncDisplayKit', '~> 1.2.3'
 end
 
 target 'ASDKVirtualizationDemoTests' do

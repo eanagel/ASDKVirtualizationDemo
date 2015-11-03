@@ -15,6 +15,7 @@
 		F08ACD6B1B4DC75300AC8793 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08ACD6A1B4DC75300AC8793 /* Images.xcassets */; };
 		F08ACD6E1B4DC75300AC8793 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08ACD6C1B4DC75300AC8793 /* LaunchScreen.xib */; };
 		F08ACD7A1B4DC75300AC8793 /* ASDKVirtualizationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08ACD791B4DC75300AC8793 /* ASDKVirtualizationDemoTests.m */; };
+		F0A3524C1BE88A8400904986 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3524B1BE88A8400904986 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		F08ACD731B4DC75300AC8793 /* ASDKVirtualizationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDKVirtualizationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08ACD781B4DC75300AC8793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F08ACD791B4DC75300AC8793 /* ASDKVirtualizationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDKVirtualizationDemoTests.m; sourceTree = "<group>"; };
+		F0A3524A1BE88A8400904986 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F0A3524B1BE88A8400904986 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				F08ACD6A1B4DC75300AC8793 /* Images.xcassets */,
 				F08ACD6C1B4DC75300AC8793 /* LaunchScreen.xib */,
 				F08ACD5D1B4DC75300AC8793 /* Supporting Files */,
+				F0A3524A1BE88A8400904986 /* RootViewController.h */,
+				F0A3524B1BE88A8400904986 /* RootViewController.m */,
 			);
 			path = ASDKVirtualizationDemo;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				F08ACD571B4DC75300AC8793 /* Frameworks */,
 				F08ACD581B4DC75300AC8793 /* Resources */,
 				72758EE4CCB86D777293364F /* Copy Pods Resources */,
+				76063793C5B6D148772245DB /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +277,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKVirtualizationDemo/Pods-ASDKVirtualizationDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		76063793C5B6D148772245DB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKVirtualizationDemo/Pods-ASDKVirtualizationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -280,6 +301,7 @@
 			files = (
 				F08ACD661B4DC75300AC8793 /* ViewController.m in Sources */,
 				F08ACD631B4DC75300AC8793 /* AppDelegate.m in Sources */,
+				F0A3524C1BE88A8400904986 /* RootViewController.m in Sources */,
 				F08ACD601B4DC75300AC8793 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,23 +1,12 @@
 PODS:
-  - AsyncDisplayKit (1.2.2):
-    - AsyncDisplayKit/ASDealloc2MainObject (= 1.2.2)
-  - AsyncDisplayKit/ASDealloc2MainObject (1.2.2)
+  - AsyncDisplayKit (1.2.3):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.2.3)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.2.3)
 
 DEPENDENCIES:
-  - AsyncDisplayKit (from `https://github.com/eanagel/AsyncDisplayKit.git`, branch
-    `new-auto-adjust-content`)
-
-EXTERNAL SOURCES:
-  AsyncDisplayKit:
-    :branch: new-auto-adjust-content
-    :git: https://github.com/eanagel/AsyncDisplayKit.git
-
-CHECKOUT OPTIONS:
-  AsyncDisplayKit:
-    :commit: f497639124a36b7900e4f2455e913db09900241b
-    :git: https://github.com/eanagel/AsyncDisplayKit.git
+  - AsyncDisplayKit (~> 1.2.3)
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit: 70634bfc4bce38b0de85fec7da20a669fdbc8809
+  AsyncDisplayKit: 5c8f38225f7478e39c48196cec0dd0d2ac3455ed
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0
